@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E302FDE1B2EC9E600D884B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E302FDD1B2EC9E600D884B5 /* AppDelegate.m */; };
+		4E302FE11B2EC9E600D884B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E302FE01B2EC9E600D884B5 /* main.m */; };
+		4E302FE31B2EC9E600D884B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E302FE21B2EC9E600D884B5 /* Assets.xcassets */; };
+		4E302FE61B2EC9E600D884B5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E302FE41B2EC9E600D884B5 /* MainMenu.xib */; };
+		4E3C281C1B3136D500A4751E /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3C281B1B3136D500A4751E /* Constants.m */; };
+		4E6E73851B342D8C00E0B77A /* AppDelegate+Termination.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E6E73841B342D8C00E0B77A /* AppDelegate+Termination.m */; };
+		4EA6771B1B303EA800E569C6 /* AppDelegate+UUIDs.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6771A1B303EA800E569C6 /* AppDelegate+UUIDs.m */; };
+		4EF8FAB11B34288A00C33C95 /* AppDelegate+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF8FAB01B34288A00C33C95 /* AppDelegate+Alerts.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E302FD91B2EC9E600D884B5 /* Alcatraz Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcatraz Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E302FDC1B2EC9E600D884B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E302FDD1B2EC9E600D884B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E302FE01B2EC9E600D884B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E302FE21B2EC9E600D884B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E302FE51B2EC9E600D884B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4E302FE71B2EC9E600D884B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E3C281A1B3136D500A4751E /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		4E3C281B1B3136D500A4751E /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		4E6E73841B342D8C00E0B77A /* AppDelegate+Termination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Termination.m"; sourceTree = "<group>"; };
+		4EA6771A1B303EA800E569C6 /* AppDelegate+UUIDs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UUIDs.m"; sourceTree = "<group>"; };
+		4EA6771C1B303EBF00E569C6 /* AppDelegate_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate_Private.h; sourceTree = "<group>"; };
+		4EF8FAB01B34288A00C33C95 /* AppDelegate+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Alerts.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E302FD61B2EC9E600D884B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E302FD01B2EC9E600D884B5 = {
+			isa = PBXGroup;
+			children = (
+				4E302FDB1B2EC9E600D884B5 /* XC Launcher */,
+				4E302FDA1B2EC9E600D884B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E302FDA1B2EC9E600D884B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E302FD91B2EC9E600D884B5 /* Alcatraz Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E302FDB1B2EC9E600D884B5 /* XC Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C28191B3136D500A4751E /* Constants */,
+				4E302FDC1B2EC9E600D884B5 /* AppDelegate.h */,
+				4EA6771C1B303EBF00E569C6 /* AppDelegate_Private.h */,
+				4E302FDD1B2EC9E600D884B5 /* AppDelegate.m */,
+				4EF8FAB01B34288A00C33C95 /* AppDelegate+Alerts.m */,
+				4E6E73841B342D8C00E0B77A /* AppDelegate+Termination.m */,
+				4EA6771A1B303EA800E569C6 /* AppDelegate+UUIDs.m */,
+				4E302FE21B2EC9E600D884B5 /* Assets.xcassets */,
+				4E302FE41B2EC9E600D884B5 /* MainMenu.xib */,
+				4E302FE71B2EC9E600D884B5 /* Info.plist */,
+				4E302FDF1B2EC9E600D884B5 /* Supporting Files */,
+			);
+			path = "XC Launcher";
+			sourceTree = "<group>";
+		};
+		4E302FDF1B2EC9E600D884B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E302FE01B2EC9E600D884B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E3C28191B3136D500A4751E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C281A1B3136D500A4751E /* Constants.h */,
+				4E3C281B1B3136D500A4751E /* Constants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E302FD81B2EC9E600D884B5 /* Alcatraz Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E302FEA1B2EC9E600D884B5 /* Build configuration list for PBXNativeTarget "Alcatraz Helper" */;
+			buildPhases = (
+				4E302FD51B2EC9E600D884B5 /* Sources */,
+				4E302FD61B2EC9E600D884B5 /* Frameworks */,
+				4E302FD71B2EC9E600D884B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alcatraz Helper";
+			productName = "XC Launcher";
+			productReference = 4E302FD91B2EC9E600D884B5 /* Alcatraz Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E302FD11B2EC9E600D884B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Siberian.pro;
+				TargetAttributes = {
+					4E302FD81B2EC9E600D884B5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 4E302FD41B2EC9E600D884B5 /* Build configuration list for PBXProject "Alcatraz Helper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E302FD01B2EC9E600D884B5;
+			productRefGroup = 4E302FDA1B2EC9E600D884B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E302FD81B2EC9E600D884B5 /* Alcatraz Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E302FD71B2EC9E600D884B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E302FE31B2EC9E600D884B5 /* Assets.xcassets in Resources */,
+				4E302FE61B2EC9E600D884B5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E302FD51B2EC9E600D884B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA6771B1B303EA800E569C6 /* AppDelegate+UUIDs.m in Sources */,
+				4E302FE11B2EC9E600D884B5 /* main.m in Sources */,
+				4E302FDE1B2EC9E600D884B5 /* AppDelegate.m in Sources */,
+				4E3C281C1B3136D500A4751E /* Constants.m in Sources */,
+				4EF8FAB11B34288A00C33C95 /* AppDelegate+Alerts.m in Sources */,
+				4E6E73851B342D8C00E0B77A /* AppDelegate+Termination.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E302FE41B2EC9E600D884B5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E302FE51B2EC9E600D884B5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E302FE81B2EC9E600D884B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4E302FE91B2EC9E600D884B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E302FEB1B2EC9E600D884B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "XC Launcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siberian.pro.XC-Launcher";
+				PRODUCT_NAME = "Alcatraz Helper";
+			};
+			name = Debug;
+		};
+		4E302FEC1B2EC9E600D884B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "XC Launcher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Siberian.pro.XC-Launcher";
+				PRODUCT_NAME = "Alcatraz Helper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E302FD41B2EC9E600D884B5 /* Build configuration list for PBXProject "Alcatraz Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E302FE81B2EC9E600D884B5 /* Debug */,
+				4E302FE91B2EC9E600D884B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E302FEA1B2EC9E600D884B5 /* Build configuration list for PBXNativeTarget "Alcatraz Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E302FEB1B2EC9E600D884B5 /* Debug */,
+				4E302FEC1B2EC9E600D884B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E302FD11B2EC9E600D884B5 /* Project object */;
+}
