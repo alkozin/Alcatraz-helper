@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0695671B37BD9F0005E20B /* Warnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4E0695661B37BD9F0005E20B /* Warnings.xcconfig */; };
 		4E302FDE1B2EC9E600D884B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E302FDD1B2EC9E600D884B5 /* AppDelegate.m */; };
 		4E302FE11B2EC9E600D884B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E302FE01B2EC9E600D884B5 /* main.m */; };
 		4E302FE31B2EC9E600D884B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E302FE21B2EC9E600D884B5 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E0695661B37BD9F0005E20B /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
 		4E302FD91B2EC9E600D884B5 /* Alcatraz Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcatraz Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E302FDC1B2EC9E600D884B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E302FDD1B2EC9E600D884B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				4E302FE01B2EC9E600D884B5 /* main.m */,
+				4E0695661B37BD9F0005E20B /* Warnings.xcconfig */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E0695671B37BD9F0005E20B /* Warnings.xcconfig in Resources */,
 				4E302FE31B2EC9E600D884B5 /* Assets.xcassets in Resources */,
 				4E302FE61B2EC9E600D884B5 /* MainMenu.xib in Resources */,
 			);
@@ -189,6 +193,7 @@
 /* Begin XCBuildConfiguration section */
 		4E302FE81B2EC9E600D884B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0695661B37BD9F0005E20B /* Warnings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
